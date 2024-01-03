@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="express.html">
+    <script src="sidebar.js"></script>
+    <script src="index.js"></script>
+    <script src="item.js"></script>
+    <script src="Restaurants.js"></script>
+    <script src="App.js"></script>
+    <link rel="stylesheet" href="sidebar.scss">
+    <link rel="stylesheet" href="list.scss">
+    <link rel="stylesheet" href="item.scss">
+</head>
+<body>
+ <div id="root">
+   <div class="page-wrap">
+     <div class="sidebar">
+       <div class="sidebar-content">
+        <div class="category-item --active" href="#popular brands">popular brands
+          <div class="category-item__count">
+            10
+            restaurants
+          </div>
+        </div>
+        <div class="category-item" href="#offer near you">Offer Near You
+          <div class="category-item__count">
+            16
+            restaurants
+          </div>
+        </div>
+        <div class="category-item">Express Delivery
+          <div class="category-item__count">
+            13
+            restaurants
+          </div>
+        </div>
+        <div class="category-item">Gourmet
+          <div class="category-item__count">
+            17
+            restaurants
+          </div>
+        </div>
+        <div class="category-item">Only in Swiggy
+          <div class="category-item__count">
+            20
+            restaurants
+          </div>
+        </div>
+        <div class="category-item">See All
+          <div class="category-item__count">
+            56r
+            restaurants
+          </div>
+        </div>
+       </div>
+     </div>
+     <div class="list-wrap">
+       <div class="category-block" id="popular brands">
+        <div class="category-block__name">popular brands</div>
+        <div class="list-row">
+
+
+          <div class="item-card  --allow-hover">
+            <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="World Art Dining - Cook house">
+            <div class="item-card-content">World Art Dining - Cook house
+              <div class="item-card__tags">
+                <div class="item-card__tag">North Indian</div>
+                <div class="item-card__tag">Chinese</div>
+                <div class="item-card__tag">Italian</div>
+              </div>
+              <div class="item-card__stats-row">
+                <div class="item-card__star-wrap">
+                  ★ 
+                  --
+                </div>
+                <div>.</div>
+                <div class="item-card__delivery-time">58 mins</div>
+                <div>.</div>
+                <div class="item-card__price">
+                  Rs
+                  1000
+                  For Two
+                </div>
+              </div>
+                <div class="item-card__quick-view">Quick View</div>
+            </div>
+          </div>
+
+
+          <div class="item-card  --allow-hover">
+            <img src="https://images.unsplash.com/photo-1521305916504-4a1121188589?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="Maestro A Restro Cafe">
+            <div class="item-card-content">Maestro A Restro Cafe
+              <div class="item-card__tags">
+                <div class="item-card__tag">North Indian</div>
+                <div class="item-card__tag">Chinese</div>
+                <div class="item-card__tag">Beverages</div>
+              </div>
+              <div class="item-card__stats-row">
+                <div class="item-card__star-wrap --green">
+                  ★ 
+                  4.2
+                </div>
+                <div>.</div>
+                <div class="item-card__delivery-time">47 mins</div>
+                <div>.</div>
+                <div class="item-card__price">
+                  Rs
+                  1200
+                  For Two
+                </div>
+              </div>
+                <div class="item-card__quick-view">Quick View</div>
+            </div>
+          </div>
+
+          <div class="item-card  --allow-hover">
+            <img src="https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="Cocoberry">
+            <div class="item-card-content">Cocoberry
+              <div class="item-card__tags">
+                <div class="item-card__tag">Desserts</div>
+              </div>
+              <div class="item-card__stats-row">
+                <div class="item-card__star-wrap --green">
+                  ★ 
+                  4.2
+                </div>
+                <div>.</div>
+                <div class="item-card__delivery-time">52 mins</div>
+                <div>.</div>
+                <div class="item-card__price">
+                   Rs
+                  200
+                  For Two
+                </div>
+              </div>
+                <div class="item-card__quick-view">Quick View</div>
+            </div>
+          </div>
+
+          <div class="item-card  --allow-hover">
+            <img src="https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="Haiyan">
+            <div class="item-card-content">Haiyan
+              <div class="item-card__tags">
+                <div class="item-card__tag">North Indian</div>
+                <div class="item-card__tag">chinese</div>
+              </div>
+              <div class="item-card__stats-row">
+                <div class="item-card__star-wrap">
+                  ★ 
+                  --
+                </div>
+                <div>.</div>
+                <div class="item-card__delivery-time">31 mins</div>
+                <div>.</div>
+                <div class="item-card__price">
+                  Rs
+                  400
+                  For Two
+                </div>
+              </div>
+                <div class="item-card__quick-view">Quick View</div>
+            </div>
+          </div> 
+
+          <div class="item-card  --allow-hover">
+            <img src="https://images.unsplash.com/photo-1429554513019-6c61c19ffb7e?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="Lotus Leaf">
+            <div class="item-card-content">Lotus Leaf
+              <div class="item-card__tags">
+                <div class="item-card__tag">North Indian</div>
+                <div class="item-card__tag">chinese</div>
+                <div class="item-card__tag">Dessert</div>
+              </div>
+              <div class="item-card__stats-row">
+                <div class="item-card__star-wrap --green">
+                  ★ 
+                  4.1
+                </div>
+                <div>.</div>
+                <div class="item-card__delivery-time">35 mins</div>
+                <div>.</div>
+                <div class="item-card__price">
+                  Rs
+                  700
+                  For Two
+                </div>
+              </div>
+                <div class="item-card__quick-view">Quick View</div>
+            </div>
+          </div>
+
+          <div class="item-card">
+            <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="The Big Bun">
+            <div class="item-card-content">The Big Bun
+              <div class="item-card__tags">
+                <div class="item-card__tag">Fast Food</div>
+              </div>
+              <div class="item-card__stats-row">
+                <div class="item-card__star-wrap --green">
+                  ★ 
+                  4.3
+                </div>
+                <div>.</div>
+                <div class="item-card__delivery-time">42 mins</div>
+                <div>.</div>
+                <div class="item-card__price">
+                  Rs
+                  300
+                  For Two
+                </div>
+              </div>
+                <div class="item-card__quick-view">Quick View</div>
+            </div>
+            <div class="item-card__more-wrap">
+              +
+              14
+              More
+            </div>
+          </div>
+
+       <div class="category-block" id="offer near you">
+         <div class="category-block__name">offer near you</div>
+          <div class="list-row">
+
+           <div class="item-card  --allow-hover">
+            <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="Hot Spot Mini Shop">
+             <div class="item-card-content">Hot Spot Mini Shop
+              <div class="item-card__tags">
+                <div class="item-card__tag">Fast Food</div>
+                <div class="item-card__tag">Snacks</div>
+                <div class="item-card__tag">North Indian</div>
+              </div>
+              <div class="item-card__stats-row">
+                <div class="item-card__star-wrap --green">
+                  ★ 
+                  4.0
+                </div>
+                <div>.</div>
+                <div class="item-card__delivery-time">108 mins</div>
+                <div>.</div>
+                <div class="item-card__price">
+                  Rs
+                  1300
+                  For Two
+                </div>
+              </div>
+                <div class="item-card__quick-view">Quick View</div>
+            </div>
+           </div>
+
+            <div class="item-card  --allow-hover">
+            <img src="https://images.unsplash.com/photo-1521305916504-4a1121188589?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="Maestro A Restro Cafe">
+              <div class="item-card-content">Maestro A Restro Cafe
+               <div class="item-card__tags">
+                 <div class="item-card__tag">North Indian</div>
+                 <div class="item-card__tag">chinese</div>
+                 <div class="item-card__tag">Beverages</div>
+               </div>
+               <div class="item-card__stats-row">
+                 <div class="item-card__star-wrap --green">
+                   ★ 
+                   4.2
+                 </div>
+                 <div>.</div>
+                 <div class="item-card__delivery-time">47 mins</div>
+                 <div>.</div>
+                 <div class="item-card__price">
+                   Rs
+                   1200
+                   For Two
+                 </div>
+               </div>
+                 <div class="item-card__quick-view">Quick View</div>
+             </div>
+           </div>
+
+            <div class="item-card  --allow-hover">
+            <img src="https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="Cocoberry">
+              <div class="item-card-content">Cocoberry
+               <div class="item-card__tags">
+                 <div class="item-card__tag">Desserts</div>
+               </div>
+               <div class="item-card__stats-row">
+                 <div class="item-card__star-wrap --green">
+                   ★ 
+                   4.2
+                 </div>
+                 <div>.</div>
+                 <div class="item-card__delivery-time">52 mins</div>
+                 <div>.</div>
+                 <div class="item-card__price">
+                   Rs
+                   200
+                   For Two
+                 </div>
+                </div>
+                <div class="item-card__quick-view">Quick View</div>
+             </div>
+            </div>
+
+            <div class="item-card  --allow-hover">
+            <img src="https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="World Art Dining - Cook house">
+              <div class="item-card-content">World Art Dining - Cook house
+               <div class="item-card__tags">
+                 <div class="item-card__tag">North Indian</div>
+                 <div class="item-card__tag">Chinese</div>
+                 <div class="item-card__tag">Italian</div>
+               </div>
+               <div class="item-card__stats-row">
+                 <div class="item-card__star-wrap">
+                   ★ 
+                   --
+                 </div>
+                 <div>.</div>
+                 <div class="item-card__delivery-time">58 mins</div>
+                 <div>.</div>
+                 <div class="item-card__price">
+                   Rs
+                   1000
+                   For Two
+                 </div>
+               </div>
+                 <div class="item-card__quick-view">Quick View</div>
+             </div>
+           </div>
+ 
+           <div class="item-card  --allow-hover">
+            <img src="https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="World Art Dining - Cook house">
+              <div class="item-card-content">World Art Dining - Cook house
+               <div class="item-card__tags">
+                 <div class="item-card__tag">North Indian</div>
+                 <div class="item-card__tag">Chinese</div>
+                 <div class="item-card__tag">Italian</div>
+               </div>
+               <div class="item-card__stats-row">
+                 <div class="item-card__star-wrap">
+                   ★ 
+                   --
+                 </div>
+                 <div>.</div>
+                 <div class="item-card__delivery-time">58 mins</div>
+                 <div>.</div>
+                 <div class="item-card__price">
+                   Rs
+                   1000
+                   For Two
+                 </div>
+                </div>
+                 <div class="item-card__quick-view">Quick View</div>
+             </div>
+            </div>
+
+            <div class="item-card">
+            <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="KAKE DA HOTEL">
+              <div class="item-card-content">KAKE DA HOTEL
+               <div class="item-card__tags">
+                 <div class="item-card__tag">North Indian</div>
+                 <div class="item-card__tag">Desserts</div>
+                 <div class="item-card__tag">Beverages</div>
+               </div>
+               <div class="item-card__stats-row">
+                 <div class="item-card__star-wrap --green">
+                   ★ 
+                   4.8
+                 </div>
+                 <div>.</div>
+                 <div class="item-card__delivery-time">58 mins</div>
+                 <div>.</div>
+                 <div class="item-card__price">
+                   Rs
+                   350
+                   For Two
+                 </div>
+               </div>
+                 <div class="item-card__quick-view">Quick View</div>
+              <div class="item-card__more-wrap">
+                +
+                10
+                More
+              </div>
+             </div>
+          </div>
+
+
+            <div class="category-block" id="Express delivery">
+              <div class="category-block__name">Express delivery</div>
+              <div class="list-row">
+     
+                <div class="item-card  --allow-hover">
+                <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="Hot Spot Mini Shop">
+                  <div class="item-card-content">Hot Spot Mini Shop
+                   <div class="item-card__tags">
+                     <div class="item-card__tag">Fast Food</div>
+                     <div class="item-card__tag">Snacks</div>
+                     <div class="item-card__tag">North Indian</div>
+                   </div>
+                   <div class="item-card__stats-row">
+                     <div class="item-card__star-wrap --green">
+                       ★
+                       4.0
+                     </div>
+                     <div>.</div>
+                     <div class="item-card__delivery-time">108 mins</div>
+                     <div>.</div>
+                     <div class="item-card__price">
+                       Rs
+                       1300
+                       For Two
+                     </div>
+                   </div>
+                     <div class="item-card__quick-view">Quick View</div>
+                 </div>
+                </div>
+
+                <div class="item-card  --allow-hover">
+                  <img src="https://images.unsplash.com/photo-1521305916504-4a1121188589?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="Maestro A Restro Cafe">
+                  <div class="item-card-content">Maestro A Restro Cafe
+                   <div class="item-card__tags">
+                     <div class="item-card__tag">North Indian</div>
+                     <div class="item-card__tag">chinese</div>
+                     <div class="item-card__tag">Beverages</div>
+                   </div>
+                   <div class="item-card__stats-row">
+                     <div class="item-card__star-wrap --green">
+                       ★ 
+                       4.2
+                     </div>
+                     <div>.</div>
+                     <div class="item-card__delivery-time">47 mins</div>
+                     <div>.</div>
+                     <div class="item-card__price">
+                       Rs
+                       1200
+                       For Two
+                     </div>
+                   </div>
+                     <div class="item-card__quick-view">Quick View</div>
+                 </div>
+               </div>
+
+               <div class="item-card  --allow-hover">
+                <img src="https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="Cocoberry">
+                <div class="item-card-content">Cocoberry
+                 <div class="item-card__tags">
+                   <div class="item-card__tag">Desserts</div>
+                 </div>
+                 <div class="item-card__stats-row">
+                   <div class="item-card__star-wrap --green">
+                     ★ 
+                     4.2
+                   </div>
+                   <div>.</div>
+                   <div class="item-card__delivery-time">52 mins</div>
+                   <div>.</div>
+                   <div class="item-card__price">
+                     Rs
+                     200
+                     For Two
+                   </div>
+                  </div>
+                  <div class="item-card__quick-view">Quick View</div>
+               </div>
+              </div>
+
+              <div class="item-card --allow-hover">
+                <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="KAKE DA HOTEL">
+                <div class="item-card-content">KAKE DA HOTEL
+                 <div class="item-card__tags">
+                   <div class="item-card__tag">North Indian</div>
+                   <div class="item-card__tag">Desserts</div>
+                   <div class="item-card__tag">Beverages</div>
+                 </div>
+                 <div class="item-card__stats-row">
+                   <div class="item-card__star-wrap --green">
+                     ★ 
+                     4.8
+                   </div>
+                   <div>.</div>
+                   <div class="item-card__delivery-time">58 mins</div>
+                   <div>.</div>
+                   <div class="item-card__price">
+                     Rs
+                     350
+                     For Two
+                   </div>
+                 </div>
+                   <div class="item-card__quick-view">Quick View</div>
+               </div>
+              </div>
+
+              <div class="item-card  --allow-hover">
+                <img src="https://images.unsplash.com/photo-1429554513019-6c61c19ffb7e?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="Maestro A Restro Cafe">
+                <div class="item-card-content">Maestro A Restro Cafe
+                 <div class="item-card__tags">
+                   <div class="item-card__tag">North Indian</div>
+                   <div class="item-card__tag">chinese</div>
+                   <div class="item-card__tag">Beverages</div>
+                 </div>
+                 <div class="item-card__stats-row">
+                   <div class="item-card__star-wrap --green">
+                     ★ 
+                     4.2
+                   </div>
+                   <div>.</div>
+                   <div class="item-card__delivery-time">47 mins</div>
+                   <div>.</div>
+                   <div class="item-card__price">
+                     Rs
+                     1200
+                     For Two
+                   </div>
+                 </div>
+                   <div class="item-card__quick-view">Quick View</div>
+               </div>
+             </div>
+
+            <div class="item-card">
+             <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="Lotus Leaf">
+             <div class="item-card-content">Lotus Leaf
+               <div class="item-card__tags">
+                 <div class="item-card__tag">North Indian</div>
+                 <div class="item-card__tag">chinese</div>
+                 <div class="item-card__tag">Dessert</div>
+               </div>
+               <div class="item-card__stats-row">
+                 <div class="item-card__star-wrap --green">
+                   ★ 
+                   3.1
+                 </div>
+                 <div>.</div>
+                 <div class="item-card__delivery-time">135 mins</div>
+                 <div>.</div>
+                 <div class="item-card__price">
+                   Rs
+                   1700
+                   For Two
+                 </div>
+               </div>
+                 <div class="item-card__quick-view">Quick View</div>
+                 <div class="item-card__more-wrap">
+                   +
+                   7
+                   More
+                 </div>
+             </div>
+           </div>
+
+           <div class="category-block" id="Gourmety">
+            <div class="category-block__name">Gourmet</div>
+            <div class="list-row">
+   
+              <div class="item-card  --allow-hover">
+                <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="Maestro A Restro Cafe">
+                <div class="item-card-content">Maestro A Restro Cafe
+                 <div class="item-card__tags">
+                   <div class="item-card__tag">North Indian</div>
+                   <div class="item-card__tag">Chinese</div>
+                   <div class="item-card__tag">Beverages</div>
+                 </div>
+                 <div class="item-card__stats-row">
+                   <div class="item-card__star-wrap --green">
+                     ★ 
+                     4.2
+                   </div>
+                   <div>.</div>
+                   <div class="item-card__delivery-time">47 mins</div>
+                   <div>.</div>
+                   <div class="item-card__price">
+                     Rs
+                     1200
+                     For Two
+                   </div>
+                 </div>
+                   <div class="item-card__quick-view">Quick View</div>
+               </div>
+              </div>
+
+              <div class="item-card  --allow-hover">
+                  <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="Lotus Leaf">
+                  <div class="item-card-content">Lotus Leaf
+                   <div class="item-card__tags">
+                     <div class="item-card__tag">North Indian</div>
+                     <div class="item-card__tag">Chinese</div>
+                     <div class="item-card__tag">Desserts</div>
+                   </div>
+                   <div class="item-card__stats-row">
+                     <div class="item-card__star-wrap --green">
+                       ★ 
+                       3.1
+                     </div>
+                     <div>.</div>
+                     <div class="item-card__delivery-time">135 mins</div>
+                     <div>.</div>
+                     <div class="item-card__price">
+                       Rs
+                       1700
+                       For Two
+                     </div>
+                   </div>
+                     <div class="item-card__quick-view">Quick View</div>
+                 </div>
+                </div>
+
+               <div class="item-card  --allow-hover">
+                  <img src="https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="Hot Spot Mini Shop">  
+                 <div class="item-card-content">Hot Spot Mini Shop
+                 <div class="item-card__tags">
+                   <div class="item-card__tag">Fast Food</div>
+                   <div class="item-card__tag">Snacks</div>
+                   <div class="item-card__tag">North Indian</div>
+                 </div>
+                 <div class="item-card__stats-row">
+                   <div class="item-card__star-wrap --green">
+                     ★ 
+                     4.0
+                   </div>
+                   <div>.</div>
+                   <div class="item-card__delivery-time">108 mins</div>
+                   <div>.</div>
+                   <div class="item-card__price">
+                     Rs
+                     1300
+                     For Two
+                   </div>
+                 </div>
+                   <div class="item-card__quick-view">Quick View</div>
+               </div>
+              </div>
+
+              <div class="item-card  --allow-hover">
+                <img src="https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="Hot Spot Mini Shop">
+                <div class="item-card-content">Hot Spot Mini Shop
+                 <div class="item-card__tags">
+                   <div class="item-card__tag">Fast food</div>
+                   <div class="item-card__tag">Snacks</div>
+                   <div class="item-card__tag">North Indian</div>
+                 </div>
+                 <div class="item-card__stats-row">
+                   <div class="item-card__star-wrap --green">
+                     ★ 
+                     4.0
+                   </div>
+                   <div>.</div>
+                   <div class="item-card__delivery-time">108 mins</div>
+                   <div>.</div>
+                   <div class="item-card__price">
+                     Rs
+                     1300
+                     For Two
+                   </div>
+                 </div>
+                   <div class="item-card__quick-view">Quick View</div>
+               </div>
+             </div>
+
+             <div class="item-card  --allow-hover">
+              <img src="https://images.unsplash.com/photo-1429554513019-6c61c19ffb7e?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="Maestro A Restro Cafe">
+              <div class="item-card-content">Maestro A Restro Cafe
+               <div class="item-card__tags">
+                 <div class="item-card__tag">Beverages</div>
+                 <div class="item-card__tag">chinese</div>
+                 <div class="item-card__tag">North Indian</div>
+               </div>
+               <div class="item-card__stats-row">
+                 <div class="item-card__star-wrap --green">
+                   ★ 
+                   4.2
+                 </div>
+                 <div>.</div>
+                 <div class="item-card__delivery-time">47 mins</div>
+                 <div>.</div>
+                 <div class="item-card__price">
+                   Rs
+                   1200
+                   For Two
+                 </div>
+               </div>
+                 <div class="item-card__quick-view">Quick View</div>
+             </div>
+           </div>
+
+           <div class="item-card">
+            <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="Cocoberry">
+            <div class="item-card-content">Cocoberrye
+             <div class="item-card__tags">
+               <div class="item-card__tag">Desserts</div>
+             </div>
+             <div class="item-card__stats-row">
+               <div class="item-card__star-wrap --green">
+                 ★ 
+                 4.2
+               </div>
+               <div>.</div>
+               <div class="item-card__delivery-time">52 mins</div>
+               <div>.</div>
+               <div class="item-card__price">
+                 Rs
+                 200
+                 For Two
+               </div>
+             </div>
+               <div class="item-card__quick-view">Quick View</div>
+           </div>
+           <div class="item-card__more-wrap">
+             +
+             11
+             More
+           </div>
+         </div>
+
+         <div class="category-block" id="Only in Swiggy">
+          <div class="category-block__name">Only in Swiggy</div>
+          <div class="list-row">
+ 
+            <div class="item-card  --allow-hover">
+              <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="Cocoberry">
+              <div class="item-card-content">Cocoberry
+               <div class="item-card__tags">
+                 <div class="item-card__tag">Desserts</div>
+               </div>
+               <div class="item-card__stats-row">
+                 <div class="item-card__star-wrap --green">
+                   ★ 
+                   4.2
+                 </div>
+                 <div>.</div>
+                 <div class="item-card__delivery-time">52 mins</div>
+                 <div>.</div>
+                 <div class="item-card__price">
+                   Rs
+                   200
+                   For Two
+                 </div>
+               </div>
+                 <div class="item-card__quick-view">Quick View</div>
+             </div>
+            </div>
+
+            <div class="item-card  --allow-hover">
+              <img src="https://images.unsplash.com/photo-1521305916504-4a1121188589?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="Moti Mahal Delux">
+              <div class="item-card-content">Moti Mahal Delux
+               <div class="item-card__tags">
+                 <div class="item-card__tag">North Indian</div>
+                 <div class="item-card__tag">Muglai</div>
+                 <div class="item-card__tag">Continental</div>
+               </div>
+               <div class="item-card__stats-row">
+                 <div class="item-card__star-wrap --green">
+                   ★ 
+                   4.7
+                 </div>
+                 <div>.</div>
+                 <div class="item-card__delivery-time">78 mins</div>
+                 <div>.</div>
+                 <div class="item-card__price">
+                   Rs
+                   1100
+                   For Two
+                 </div>
+               </div>
+                 <div class="item-card__quick-view">Quick View</div>
+             </div>
+            </div>
+
+            <div class="item-card  --allow-hover">
+              <img src="https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="Hot Spot Mini Shop">
+              <div class="item-card-content">Hot Spot Mini Shop
+               <div class="item-card__tags">
+                 <div class="item-card__tag">Fast Food</div>
+                 <div class="item-card__tag">Snacks</div>
+                 <div class="item-card__tag">North Indian</div>
+               </div>
+               <div class="item-card__stats-row">
+                 <div class="item-card__star-wrap --green">
+                   ★ 
+                   4.0
+                 </div>
+                 <div>.</div>
+                 <div class="item-card__delivery-time">108 mins</div>
+                 <div>.</div>
+                 <div class="item-card__price">
+                   Rs
+                   1300
+                   For Two
+                 </div>
+               </div>
+                 <div class="item-card__quick-view">Quick View</div>
+             </div>
+            </div>
+
+            <div class="item-card  --allow-hover">
+              <img src="https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="Creme N Crisp">
+              <div class="item-card-content">Creme N Crisp
+               <div class="item-card__tags">
+                 <div class="item-card__tag">Bakery</div>
+               </div>
+               <div class="item-card__stats-row">
+                 <div class="item-card__star-wrap --green">
+                   ★ 
+                   3.7
+                 </div>
+                 <div>.</div>
+                 <div class="item-card__delivery-time">25 mins</div>
+                 <div>.</div>
+                 <div class="item-card__price">
+                   Rs
+                   400
+                   For Two
+                 </div>
+               </div>
+                 <div class="item-card__quick-view">Quick View</div>
+             </div>
+            </div>
+
+            <div class="item-card  --allow-hover">
+              <img src="https://images.unsplash.com/photo-1429554513019-6c61c19ffb7e?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="Hot Spot Mini Shop">
+              <div class="item-card-content">Hot Spot Mini Shop
+               <div class="item-card__tags">
+                 <div class="item-card__tag">Fast Food</div>
+                 <div class="item-card__tag">Snacks</div>
+                 <div class="item-card__tag">North Indian</div>
+               </div>
+               <div class="item-card__stats-row">
+                 <div class="item-card__star-wrap --green">
+                   ★ 
+                   4.0
+                 </div>
+                 <div>.</div>
+                 <div class="item-card__delivery-time">108 mins</div>
+                 <div>.</div>
+                 <div class="item-card__price">
+                   Rs
+                   1300
+                   For Two
+                 </div>
+               </div>
+                 <div class="item-card__quick-view">Quick View</div>
+             </div>
+            </div>
+
+            <div class="item-card  --allow-hover">
+              <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=500&q=60" class="item-thumb" alt="Cocoberry">
+              <div class="item-card-content">Cocoberry
+               <div class="item-card__tags">
+                 <div class="item-card__tag">Desserts</div>
+               </div>
+               <div class="item-card__stats-row">
+                 <div class="item-card__star-wrap --green">
+                   ★ 
+                   4.2
+                 </div>
+                 <div>.</div>
+                 <div class="item-card__delivery-time">52 mins</div>
+                 <div>.</div>
+                 <div class="item-card__price">
+                   Rs
+                   200
+                   For Two
+                 </div>
+               </div>
+                 <div class="item-card__quick-view">Quick View</div>
+             </div>
+             <div class="item-card__more-wrap">
+               +
+               14
+               More
+             </div>
+            </div>
+           </div>
+         </div>
+       </div> 
+     </div>
+ </div>
+
+
+ <script>
+  document.getElementsByClassName("category-item --active").onclick=function()
+  {
+    document.getElementById("popular brands").getElementById = "popular brands"
+  }
+ </script>
+ <script>
+   document.getElementsByClassName("category-item").onclick=function()
+  {
+    document.getElementById("offer near you").style.background="red"
+  }
+ </script>
+ <script src="js1.chunk.js"></script>
+ <script src="js2main.chunk.js"></script>
+</body>
+</html>
